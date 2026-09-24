@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.box{
+    width:150px;
+    height:150px;
+    background:#4CAF50;
+
+    animation:scaleUp 2s infinite alternate;
+}
+@keyframes scaleUp{
+from{
+    transform:scaleX(1);
+}
+to{
+    transform:scale(1.5);
+}
+}
+/*| Scale Type      | Syntax                             | Description                                        |
+| --------------- | ---------------------------------- | -------------------------------------------------- |
+| **scale()**     | `transform: scale(1.2);`           | Scales both width and height equally               |
+| **scaleX()**    | `transform: scaleX(1.5);`          | Scales only the width                              |
+| **scaleY()**    | `transform: scaleY(1.5);`          | Scales only the height                             |
+| **scale(x, y)** | `transform: scale(1.2, 0.8);`      | Scales width and height independently              |
+| **scale3d()**   | `transform: scale3d(1.2, 1.2, 1);` | Scales in 3D space                                 |
+| **scaleZ()***   | `transform: scaleZ(1.2);`          | Scales along the Z-axis (rarely useful on its own) |

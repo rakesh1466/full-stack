@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f4f4f4;
+}
+.box{
+    width:200px;
+    height:100px;
+    background:#4CAF50;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    border-radius:10px;
+    animation: fadeOut 2s ease forwards;
+}
+@keyframes fadeOut{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
+/*| Animation Type | Example Name|
+| --------------   | ----------- |
+| Fade In          | fadeIn      |
+| Fade Out         | fadeOut     |
+| Fade In Up       | fadeInUp    |
+| Fade In Down     | fadeInDown  |
+| Fade In Left     | fadeInLeft  |
+| Fade In Right    | fadeInRight |
+| Slide Up         | slideUp     |
+| Slide Down       | slideDown   |
+| Slide Left       | slideLeft   |
+| Slide Right      | slideRight  |
+| Zoom In          | zoomIn      |
+| Zoom Out         | zoomOut     |
+| Scale Up         | scaleUp     |
+| Scale Down       | scaleDown   |
+| Rotate           | rotate      |
+| Rotate In        | rotateIn    |
+| Rotate Out       | rotateOut   |
+| Bounce           | bounce      |
+| Bounce In        | bounceIn    |
+| Bounce Out       | bounceOut   |
+| Pulse            | pulse       |
+| Flash            | flash       |
+| Shake            | shake       |
+| Swing            | swing       |
+| Wobble           | wobble      |
+| Rubber Band      | rubberBand  |
+| Flip             | flip        |
+| Flip In X        | flipInX     |
+| Flip In Y        | flipInY     |
+| Flip Out X       | flipOutX    |
+| Flip Out Y       | flipOutY    |
+| Heart Beat       | heartBeat   |
+| Floating         | floating    |
+| Glow             | glow        |
+| Blink            | blink       |
+| Typing           | typing      |
+| Wave             | wave        |
+| Ripple           | ripple      |
+| Loading Dots     | loadingDots |
+| Spinner          | spinner     |
+| Marquee          | marquee     |
+| Parallax         | parallax    |
+| Morph            | morph       |
+| Floating Blob    | blob        |
+| Skew             | skew        |
+| Swing Door       | swingDoor   |

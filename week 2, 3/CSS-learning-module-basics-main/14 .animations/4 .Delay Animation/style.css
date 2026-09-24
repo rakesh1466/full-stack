@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    animation: bounce 2s ease infinite;
+    animation-delay: 5s; /* Wait 2 seconds before starting */
+}
+@keyframes bounce {
+    0%,100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+}

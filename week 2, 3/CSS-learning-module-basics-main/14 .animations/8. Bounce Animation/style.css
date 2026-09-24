@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.ball{
+    width:100px;
+    height:100px;
+    background:#ff4757;
+    border-radius:50%;
+
+    animation:bounce 1s ease-in-out infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-100px);
+    }
+}
+/*| Bounce Type      | Description                             |
+| ---------------- | --------------------------------------- |
+| `bounce`         | Basic up and down bounce                |
+| `bounceUp`       | Bounces upward                          |
+| `bounceDown`     | Bounces downward                        |
+| `bounceLeft`     | Bounces to the left                     |
+| `bounceRight`    | Bounces to the right                    |
+| `bounceIn`       | Bounces while appearing                 |
+| `bounceOut`      | Bounces while disappearing              |
+| `bounceInUp`     | Appears from the bottom with a bounce   |
+| `bounceInDown`   | Appears from the top with a bounce      |
+| `bounceInLeft`   | Appears from the left with a bounce     |
+| `bounceInRight`  | Appears from the right with a bounce    |
+| `bounceOutUp`    | Exits upward with a bounce              |
+| `bounceOutDown`  | Exits downward with a bounce            |
+| `bounceOutLeft`  | Exits to the left with a bounce         |
+| `bounceOutRight` | Exits to the right with a bounce        |
+| `bounceScale`    | Bounces while scaling up/down           |
+| `softBounce`     | Gentle, smooth bounce                   |
+| `hardBounce`     | Strong, high bounce                     |
+| `elasticBounce`  | Stretchy rubber-like bounce             |
+| `rubberBounce`   | Combines bounce and rubber-band effect  |
+| `ballBounce`     | Realistic ball bounce                   |
+| `buttonBounce`   | Small bounce for buttons on hover/click |
+| `iconBounce`     | Bounce effect for icons                 |
+| `textBounce`     | Bouncing text or letters                |
+| `logoBounce`     | Bounce animation for logos              |
+*/

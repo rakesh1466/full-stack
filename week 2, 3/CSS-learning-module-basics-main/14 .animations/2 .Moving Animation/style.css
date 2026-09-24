@@ -1,0 +1,16 @@
+.box{
+    width:100px;
+    height:100px;
+    background:green;
+
+    animation:moveBox 9s;
+}
+
+@keyframes moveBox{
+    from{
+        transform:translateX(600px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
