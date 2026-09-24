@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
+}
+main {
+	width: 400px;
+}
+input {
+	padding: 8px;
+}
+button {
+	padding: 8px 12px;
+	cursor: pointer;
+}
+#weather {
+	margin-top: 20px;
+}
+#forecast {
+	margin-top: 20px;
+}
+#forecast > div {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+}
